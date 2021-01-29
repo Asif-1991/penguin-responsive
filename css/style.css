@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#home{
+    background-color: #FFFBF0;
+}
+.penguin-card{
+    border: 0;
+}
+.penguin-card-footer{
+    background-color: white;
+    border: 0;
+}
+.btn{
+    /* background-color:  rgb(13, 147, 184); */
+    color: white;
+    border: 0;
+}
+.card-button{
+    margin-left: 120px;
+    margin-bottom: 16px;
+}
+.catagories img{
+    width: 100px;
+}
