@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+.body{
+    font-family: 'Poppins', sans-serif;
+}
 #home{
     background-color: #FFFBF0;
 }
@@ -40,4 +43,7 @@
 }
 .catagories img{
     width: 100px;
+}
+.footer-bottom{
+    background-color: rgb(52, 89, 117);
 }
