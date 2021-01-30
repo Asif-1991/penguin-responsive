@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penguin Responsive</title>
+    <link href="css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -12,9 +13,9 @@
 <body>
     <!-- header section -->
 
-    <header id="home" class="container pb-5">
+    <header id="home" class=" justify-content-around pb-5">
         <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-transparent">
-            <div class="container-fluid">
+            <div class="container-fluid container align-items-center justify-content-around">
                 <a class="navbar-brand" href="#">
                     <img src="logo, icon/logo.ico" alt="">
                 </a>
@@ -22,8 +23,8 @@
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                    <ul class="navbar-nav">
+                <div class="container collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav pr-3">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#home">Home</a>
                         </li>
@@ -40,15 +41,15 @@
                 </div>
             </div>
         </nav>
-        <section class="">
-            <div class="row align-items-center p-5">
-                <div class="col-7 pt-5">
-                    <h1>Be the Penguins <br>
-                        of Winter </h1>
-                    <p> Lorem Ipsum is simply dummy text of the printing
+        <section class="container">
+            <div class="row align-items-center justify-content-around p-5">
+                <div class="col-7">
+                    <h1 class="header-text">Be the Penguins <br>
+                      <span class="header-text-two">of Winter</span>  </h1>
+                    <p class="header-paragraph pt-3 pb-3"> Lorem Ipsum is simply dummy text of the printing
                         <br> and typesetting industry.
                     </p>
-                    <button type="button" class="btn btn-success">BUY NOW</button>
+                    <button type="button" class="btn btn-success">BUY NOW <i class="fas fa-shopping-cart"></i></button>
                 </div>
                 <div class="col-5">
                     <img src="images/bannerimage.png" class="d-block img-fluid" alt="...">
@@ -60,8 +61,8 @@
     <!-- card section -->
     <main>
 
-        <section id="shoes" class="container">
-            <h2>Woman Jacket</h2>
+        <section id="shoes" class="container pt-5">
+            <h2 class="pb-5">Woman Jacket</h2>
             <div class="row row-cols-1 row-cols-md-3 g-4 container">
                 <div class="col">
                     <div class="card penguin-card h-100 img-fluid shadow justify-content-around">
@@ -74,7 +75,7 @@
                         </div>
                         <div class="card-footer d-flex penguin-card-footer">
                             <h3>$240</h3>
-                            <a href="#" class="btn btn-success card-button">Buy Now >></a>
+                            <a href="#" class="btn btn-success card-button">Buy Now <i class="fas fa-shopping-cart"></i></a>
                         </div>
                     </div>
                 </div>
@@ -89,7 +90,7 @@
                         </div>
                         <div class="card-footer d-flex penguin-card-footer">
                             <h3>$240</h3>
-                            <a href="#" class="btn btn-success card-button">Buy Now >></a>
+                            <a href="#" class="btn btn-success card-button">Buy Now <i class="fas fa-shopping-cart"></i></a>
                         </div>
                     </div>
                 </div>
@@ -104,7 +105,7 @@
                         </div>
                         <div class="card-footer d-flex penguin-card-footer">
                             <h3>$240</h3>
-                            <a href="#" class="btn btn-success card-button">Buy Now >></a>
+                            <a href="#" class="btn btn-success card-button">Buy Now <i class="fas fa-shopping-cart"></i></a>
                         </div>
                     </div>
                 </div>
@@ -112,7 +113,7 @@
         </section>
 
         <section id="backpack" class="container">
-            <h2 class="pt-5">Man Jacket</h2>
+            <h2 class="pt-5 pb-5">Man Jacket</h2>
             <div class="row row-cols-1 row-cols-md-3 g-4 container">
                 <div class="col">
                     <div class="card penguin-card h-100 img-fluid shadow justify-content-around">
@@ -125,7 +126,7 @@
                         </div>
                         <div class="card-footer d-flex penguin-card-footer">
                             <h3>$240</h3>
-                            <a href="#" class="btn btn-success card-button">Buy Now >></a>
+                            <a href="#" class="btn btn-success card-button">Buy Now <i class="fas fa-shopping-cart"></i></a>
                         </div>
                     </div>
                 </div>
@@ -140,7 +141,7 @@
                         </div>
                         <div class="card-footer d-flex penguin-card-footer">
                             <h3>$240</h3>
-                            <a href="#" class="btn btn-success card-button">Buy Now >></a>
+                            <a href="#" class="btn btn-success card-button">Buy Now <i class="fas fa-shopping-cart"></i></a>
                         </div>
                     </div>
                 </div>
@@ -155,7 +156,7 @@
                         </div>
                         <div class="card-footer d-flex penguin-card-footer">
                             <h3>$240</h3>
-                            <a href="#" class="btn btn-success card-button">Buy Now >></a>
+                            <a href="#" class="btn btn-success card-button">Buy Now <i class="fas fa-shopping-cart"></i></a>
                         </div>
                     </div>
                 </div>

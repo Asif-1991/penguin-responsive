@@ -5,6 +5,20 @@
 #home{
     background-color: #FFFBF0;
 }
+.header-text{
+    color:  rgb(255, 115, 0);
+    font-size: 3.5rem;
+    font-weight: 600;
+
+}
+.header-text-two{
+    color:  #49CD56;
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+.header-paragraph{
+    line-height: 30px;
+}
 .penguin-card{
     border: 0;
 }
@@ -12,8 +26,11 @@
     background-color: white;
     border: 0;
 }
+.shopping-cart{
+    width: 5px;
+}
 .btn{
-    /* background-color:  rgb(13, 147, 184); */
+    background-color:  #49CD56;
     color: white;
     border: 0;
 }
